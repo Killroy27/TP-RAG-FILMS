@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data & Index (Généralement trop lourds pour Git, mais nécessaire ici pour le TP ?)
+# Si vous voulez que le correcteur ait l'index direct, commentez les 2 lignes suivantes :
+# data/faiss_index.bin
+# data/metadata.json
+
+# OS
+.DS_Store
+Thumbs.db
